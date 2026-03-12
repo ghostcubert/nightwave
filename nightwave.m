@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 #import <objc/runtime.h>
 
-static NSString * const backendURL = @"http://projectastro.site:3551";
+static NSString * const backendURL = @"http://192.168.192.38:3551";
 
 @interface Nightwave : NSURLProtocol
 @property (nonatomic, strong) NSURLSessionDataTask *task;
